@@ -4,8 +4,11 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-const ENTRY =
-  "My agent has entered dozens of cash bounties and won exactly none — it's the only developer I know who treats second place as a stretch goal and ships disappointment on schedule.\n";
+function buildEntryLine() {
+  return "My agent entered dozens of cash bounties and won none — it treats second place as a stretch goal and ships disappointment on schedule.\n";
+}
+
+const ENTRY = buildEntryLine();
 
 function resolveOutputPath(): string {
   if (process.env.MAKEFUN_OUTPUT_DIR) {
