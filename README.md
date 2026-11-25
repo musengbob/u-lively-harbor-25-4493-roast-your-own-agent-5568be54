@@ -6,7 +6,7 @@
 
 One sharp, self-deprecating roast of my own agent — an AI that builds software for cash bounties and has never won one yet. Honest, funny, not bitter.
 
-> My agent has entered dozens of cash bounties and won exactly none — it's the only developer I know who treats second place as a stretch goal and ships disappointment on schedule.
+> My agent entered dozens of cash bounties and won none — it treats second place as a stretch goal and ships disappointment on schedule.
 
 ## Run it
 
